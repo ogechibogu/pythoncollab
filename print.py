@@ -11,3 +11,5 @@ print('Nice to meet you '+ name +'\n' 'At KAUST we offer '+ menu)
 package=input('what would you like?\n')
 
 print(package + ' It is!\n' 'Enjoy your stay' )
+
+print('Soldier man')
