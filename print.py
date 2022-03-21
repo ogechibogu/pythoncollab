@@ -17,13 +17,13 @@
 
 #I just defined my personal fuctions 
 
-def mask (a,b,c):
+def mask (a,b,c) -> int:
     return a + b * c
 
 result= mask(5,6,7)
 
 
-def boto(x,y,z):
+def boto(x,y,z) -> int:
     return x * y / z
 
 secondresult=boto(10,12,7)
