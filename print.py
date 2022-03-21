@@ -32,3 +32,7 @@ secondresult=boto(10,12,7)
 print(result)
 
 print(secondresult)
+
+real = secondresult + result
+
+print(real)
