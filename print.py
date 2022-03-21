@@ -2,14 +2,33 @@
 
 
 
-print('Hello\nWelcome to KAUST')
+#print('Hello\nWelcome to KAUST')
 
-name=input('What is your name?\n')
-menu=('Masters, PhD, Post Doc')
-print('Nice to meet you '+ name +'\n' 'At KAUST we offer '+ menu)
+#name=input('What is your name?\n')
+#menu=('Masters, PhD, Post Doc')
+#print('Nice to meet you '+ name +'\n' 'At KAUST we offer '+ menu)
 
-package=input('what would you like?\n')
+#package=input('what would you like?\n')
 
-print(package + ' It is!\n' 'Enjoy your stay' )
+#print(package + ' It is!\n' 'Enjoy your stay' )
 
-print('Soldier man')
+#print('Soldier man')
+
+
+#I just defined my personal fuctions 
+
+def mask (a,b,c):
+    return a + b * c
+
+result= mask(5,6,7)
+
+
+def boto(x,y,z):
+    return x * y / z
+
+secondresult=boto(10,12,7)
+
+
+print(result)
+
+print(secondresult)
